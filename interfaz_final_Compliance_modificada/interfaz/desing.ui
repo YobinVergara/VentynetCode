@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1561</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(86, 101, 197);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100000</width>
+           <height>105</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>4</number>
+             </property>
+             <property name="leftMargin">
+              <number>5</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>5</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_8">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>180</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(86, 101, 197);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_2">
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_3">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>imagenes/logo.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>1000</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTabWidget" name="tabWidget_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="currentIndex">
+                <number>2</number>
+               </property>
+               <widget class="QWidget" name="tab_3">
+                <attribute name="title">
+                 <string>Conexión</string>
+                </attribute>
+                <layout class="QGridLayout" name="gridLayout_11">
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="frame_20">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_6">
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QFrame" name="frame_21">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>100</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_12">
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="verticalSpacing">
+                        <number>0</number>
+                       </property>
+                       <item row="1" column="4">
+                        <widget class="QSpinBox" name="sp_air">
+                         <property name="maximumSize">
+                          <size>
+                           <width>80</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+border-color: rgb(100,192,247);</string>
+                         </property>
+                         <property name="value">
+                          <number>30</number>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="5">
+                        <widget class="QLabel" name="label_32">
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>O2 In</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="5">
+                        <widget class="QSpinBox" name="sp_o2">
+                         <property name="maximumSize">
+                          <size>
+                           <width>80</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+border-color: rgb(100,192,247);</string>
+                         </property>
+                         <property name="value">
+                          <number>30</number>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="6">
+                        <widget class="QLabel" name="label_43">
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>Presion T</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="4">
+                        <widget class="QLabel" name="label_29">
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>Aire In</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="6">
+                        <widget class="QDoubleSpinBox" name="sp_PresT">
+                         <property name="maximumSize">
+                          <size>
+                           <width>80</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="decimals">
+                          <number>1</number>
+                         </property>
+                         <property name="maximum">
+                          <double>40.000000000000000</double>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="3">
+                        <widget class="QPushButton" name="bt_connect">
+                         <property name="maximumSize">
+                          <size>
+                           <width>60</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="sizeIncrement">
+                          <size>
+                           <width>60</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="palette">
+                          <palette>
+                           <active>
+                            <colorrole role="Button">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                            <colorrole role="Base">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                            <colorrole role="Window">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                           </active>
+                           <inactive>
+                            <colorrole role="Button">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                            <colorrole role="Base">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                            <colorrole role="Window">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                           </inactive>
+                           <disabled>
+                            <colorrole role="Button">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                            <colorrole role="Base">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                            <colorrole role="Window">
+                             <brush brushstyle="SolidPattern">
+                              <color alpha="255">
+                               <red>86</red>
+                               <green>101</green>
+                               <blue>197</blue>
+                              </color>
+                             </brush>
+                            </colorrole>
+                           </disabled>
+                          </palette>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>imagenes/on2.png</normaloff>imagenes/on2.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>60</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="3">
+                        <widget class="QPushButton" name="bt_disconected">
+                         <property name="minimumSize">
+                          <size>
+                           <width>60</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>60</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>imagenes/off 2.png</normaloff>imagenes/off 2.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>60</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="2">
+                        <widget class="QPushButton" name="bt_Reset">
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 15pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>Reset</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="2">
+                        <widget class="QLabel" name="label_34">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>60</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 15pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>-------</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="1">
+                        <widget class="QLabel" name="label">
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 15pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>Baudios</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="1">
+                        <widget class="QComboBox" name="cb_baudrates">
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(255, 255, 255);
+font: 75 10pt &quot;Romantic&quot;;</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_2">
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(100, 192, 247);
+font: 75 15pt &quot;Romantic&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>Puertos</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QComboBox" name="cb_list_ports">
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color:rgb(255, 255, 255);
+font: 75 10pt &quot;Romantic&quot;;</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QPushButton" name="pushButton_3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>25</width>
+                     <height>45</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>40</width>
+                     <height>55</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>imagenes/Univalle.png</normaloff>imagenes/Univalle.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>45</width>
+                     <height>52</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="tab_4">
+                <attribute name="title">
+                 <string>Volumen control</string>
+                </attribute>
+                <layout class="QFormLayout" name="formLayout">
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item row="0" column="0" colspan="2">
+                  <widget class="QFrame" name="frame_11">
+                   <property name="minimumSize">
+                    <size>
+                     <width>500</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>10000000</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_4">
+                    <property name="horizontalSpacing">
+                     <number>15</number>
+                    </property>
+                    <item row="0" column="5">
+                     <widget class="QLabel" name="label_8">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>PEEP</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLabel" name="label_10">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>% FIO2</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLabel" name="label_9">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Q Max</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="1">
+                     <widget class="QSpinBox" name="sp_FIO2">
+                      <property name="maximumSize">
+                       <size>
+                        <width>80</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="minimum">
+                       <number>23</number>
+                      </property>
+                      <property name="maximum">
+                       <number>100</number>
+                      </property>
+                      <property name="value">
+                       <number>100</number>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="3">
+                     <widget class="QDoubleSpinBox" name="sp_Qmax">
+                      <property name="maximumSize">
+                       <size>
+                        <width>80</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>1</number>
+                      </property>
+                      <property name="singleStep">
+                       <double>2.000000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>36.000000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="5">
+                     <widget class="QDoubleSpinBox" name="sp_PEEP">
+                      <property name="maximumSize">
+                       <size>
+                        <width>80</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>1</number>
+                      </property>
+                      <property name="value">
+                       <double>1.000000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="13" colspan="2">
+                     <widget class="QSlider" name="sl_frec">
+                      <property name="maximum">
+                       <number>20</number>
+                      </property>
+                      <property name="pageStep">
+                       <number>1</number>
+                      </property>
+                      <property name="value">
+                       <number>10</number>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="13">
+                     <widget class="QLabel" name="label_11">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>frecuen</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="12">
+                     <widget class="QDoubleSpinBox" name="sp_tesp2">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>1</number>
+                      </property>
+                      <property name="singleStep">
+                       <double>0.100000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>0.700000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="12">
+                     <widget class="QLabel" name="label_15">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Pau Esp</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="7">
+                     <widget class="QLabel" name="label_12">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>   Insp</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="14">
+                     <widget class="QDoubleSpinBox" name="sp_Frec">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>0</number>
+                      </property>
+                      <property name="minimum">
+                       <double>1.000000000000000</double>
+                      </property>
+                      <property name="maximum">
+                       <double>30.000000000000000</double>
+                      </property>
+                      <property name="singleStep">
+                       <double>0.100000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>12.000000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="11">
+                     <widget class="QDoubleSpinBox" name="sp_tesp1">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>1</number>
+                      </property>
+                      <property name="singleStep">
+                       <double>0.100000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>0.600000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="8">
+                     <widget class="QLabel" name="label_13">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Esp  </string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="7" colspan="2">
+                     <widget class="QSlider" name="rel_IE">
+                      <property name="minimum">
+                       <number>-30</number>
+                      </property>
+                      <property name="maximum">
+                       <number>30</number>
+                      </property>
+                      <property name="singleStep">
+                       <number>1</number>
+                      </property>
+                      <property name="value">
+                       <number>0</number>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="0">
+                     <widget class="QComboBox" name="cb_tp_onda">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(255, 255, 255);
+font: 75 10pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <item>
+                       <property name="text">
+                        <string>Escalon</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Rampa Descendente</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_4">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Tipo onda</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="10">
+                     <widget class="QDoubleSpinBox" name="sp_tespir">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>2</number>
+                      </property>
+                      <property name="singleStep">
+                       <double>0.100000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>2.400000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="9">
+                     <widget class="QDoubleSpinBox" name="sp_tisnp">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>2</number>
+                      </property>
+                      <property name="singleStep">
+                       <double>0.100000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>0.800000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="2">
+                     <widget class="QDoubleSpinBox" name="sp_Vmax">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="decimals">
+                       <number>0</number>
+                      </property>
+                      <property name="minimum">
+                       <double>0.000000000000000</double>
+                      </property>
+                      <property name="maximum">
+                       <double>1300.000000000000000</double>
+                      </property>
+                      <property name="singleStep">
+                       <double>10.000000000000000</double>
+                      </property>
+                      <property name="value">
+                       <double>500.000000000000000</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_6">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Volumen</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="6">
+                     <widget class="QPushButton" name="bt_enviar">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(0, 170, 255);
+color:rgb(86, 101, 197);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>SEND</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="6">
+                     <widget class="QPushButton" name="bt_stop">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 29, 0);
+color:rgb(255, 255, 255);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>STOP</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="11">
+                     <widget class="QLabel" name="label_14">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Pau Insp</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="9" colspan="2">
+                     <widget class="QLabel" name="lb_relacion">
+                      <property name="styleSheet">
+                       <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Relacion I:E</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="tab_5">
+                <attribute name="title">
+                 <string>Presion Control</string>
+                </attribute>
+                <layout class="QGridLayout" name="gridLayout_5">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="horizontalSpacing">
+                  <number>0</number>
+                 </property>
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="frame_5">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,1,1,1,1,1,1,1,1,1">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_9" stretch="0,1">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QLabel" name="label_5">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>Tipo de onda</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QComboBox" name="tipo_onda">
+                          <property name="styleSheet">
+                           <string notr="true">font: 75 10pt &quot;Romantic&quot;;
+color:rgb(255, 255, 255);</string>
+                          </property>
+                          <item>
+                           <property name="text">
+                            <string>Escalon</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>Rampa Descedente</string>
+                           </property>
+                          </item>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_14">
+                        <item>
+                         <widget class="QLabel" name="label_47">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                          </property>
+                          <property name="text">
+                           <string>%FIO2</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QSpinBox" name="Oxigeno">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_2">
+                        <item>
+                         <widget class="QLabel" name="label_7">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>PIP [cmH2O]</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QDoubleSpinBox" name="sp_Pmax">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="value">
+                           <double>31.000000000000000</double>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_3">
+                        <item>
+                         <widget class="QLabel" name="label_45">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                          </property>
+                          <property name="text">
+                           <string>PEEP [cmH2O]</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QSpinBox" name="sp_Peep">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="value">
+                           <number>1</number>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_7">
+                        <item>
+                         <widget class="QLabel" name="label_49">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                          </property>
+                          <property name="text">
+                           <string>Pausa Insp [s]</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QDoubleSpinBox" name="sp_TespI">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="decimals">
+                           <number>1</number>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_13">
+                        <item>
+                         <widget class="QLabel" name="label_50">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                          </property>
+                          <property name="text">
+                           <string>Pausa Esp [s]</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QDoubleSpinBox" name="sp_TespE">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="decimals">
+                           <number>1</number>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_10">
+                        <item>
+                         <widget class="QLabel" name="label_44">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>Ins - Esp</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QSlider" name="Rel_IE">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>16777215</height>
+                           </size>
+                          </property>
+                          <property name="minimum">
+                           <number>-30</number>
+                          </property>
+                          <property name="maximum">
+                           <number>30</number>
+                          </property>
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_11">
+                        <item>
+                         <widget class="QLabel" name="lb_relacionP">
+                          <property name="styleSheet">
+                           <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                          </property>
+                          <property name="text">
+                           <string>Relacion I:E [s]</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <layout class="QHBoxLayout" name="horizontalLayout_11">
+                          <item>
+                           <widget class="QLabel" name="sp_Tinsp">
+                            <property name="styleSheet">
+                             <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                            </property>
+                            <property name="text">
+                             <string/>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="sp_Tespir">
+                            <property name="styleSheet">
+                             <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                            </property>
+                            <property name="text">
+                             <string/>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_8">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="0,1">
+                          <property name="spacing">
+                           <number>0</number>
+                          </property>
+                          <item>
+                           <widget class="QLabel" name="label_46">
+                            <property name="styleSheet">
+                             <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;
+</string>
+                            </property>
+                            <property name="text">
+                             <string>Frecuencia [rpm]</string>
+                            </property>
+                            <property name="alignment">
+                             <set>Qt::AlignCenter</set>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QSpinBox" name="sp_FrecP">
+                            <property name="styleSheet">
+                             <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </item>
+                        <item>
+                         <widget class="QSlider" name="sl_Frec">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>16777215</height>
+                           </size>
+                          </property>
+                          <property name="maximum">
+                           <number>30</number>
+                          </property>
+                          <property name="pageStep">
+                           <number>1</number>
+                          </property>
+                          <property name="value">
+                           <number>12</number>
+                          </property>
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_12">
+                        <item>
+                         <widget class="QPushButton" name="bt_enviarP">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>22</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>100</width>
+                            <height>16777215</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(0, 170, 255);
+color:rgb(86, 101, 197);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>SEND</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="bt_stopP">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>22</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>100</width>
+                            <height>16777215</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 29, 0);
+color:rgb(255, 255, 255);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>STOP</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QFrame" name="frame_3">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QFrame" name="frame_13">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_9">
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QTabWidget" name="tabWidget">
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <widget class="QWidget" name="tab">
+                <attribute name="title">
+                 <string>Grafica ciclica</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="frame_18">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_10">
+                    <item row="0" column="0">
+                     <layout class="QVBoxLayout" name="grafVolPres"/>
+                    </item>
+                    <item row="0" column="1">
+                     <layout class="QVBoxLayout" name="grafFluPres"/>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="tab_2">
+                <attribute name="title">
+                 <string>Graficas continuas</string>
+                </attribute>
+                <layout class="QHBoxLayout" name="horizontalLayout_7">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="frame_19">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_4">
+                    <property name="spacing">
+                     <number>4</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>4</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>4</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="grafPre"/>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="grafFlu"/>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="grafVol"/>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QFrame" name="frame_14">
+               <property name="minimumSize">
+                <size>
+                 <width>360</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>360</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QFrame" name="frame_15">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_6">
+                   <item row="0" column="2">
+                    <widget class="QLabel" name="label_19">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>31</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_17">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Presion Media</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="2">
+                    <widget class="QLabel" name="label_20">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 34pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>25</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="0">
+                    <widget class="QLabel" name="label_18">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>PEEP</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_16">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Presion Pico</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="2">
+                    <widget class="QLabel" name="label_21">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>21</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="3">
+                    <widget class="QLabel" name="label_35">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>cm H2O</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="3">
+                    <widget class="QLabel" name="label_36">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>cm H2O</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="3">
+                    <widget class="QLabel" name="label_37">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>cm H2O</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_16">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_7">
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_24">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>45</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_25">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Flujo</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_27">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Flujo Max</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLabel" name="label_22">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 34pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>39.1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLabel" name="label_26">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>-40</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_23">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Flujo Min</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QLabel" name="label_38">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>L/min</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QLabel" name="label_39">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>L/min</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QLabel" name="label_40">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>L/min</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_17">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_8">
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="label_30">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>500</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_31">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Volumen</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_33">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Vol Max</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QLabel" name="label_41">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>mL</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLabel" name="label_28">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 34pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>480</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QLabel" name="label_42">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>mL</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_48">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(100, 192, 247);
+font: 75 12pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Compliancia</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QLabel" name="compliance">
+                     <property name="font">
+                      <font>
+                       <family>Romantic</family>
+                       <pointsize>26</pointsize>
+                       <weight>9</weight>
+                       <italic>false</italic>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 26pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>0</string>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="2">
+                    <widget class="QLabel" name="label_52">
+                     <property name="styleSheet">
+                      <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Romantic&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>L/cmH2O</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
